@@ -69,20 +69,14 @@ echo AmharicNumberConverter::toNumber('አንድ ሺህ ሁለት መቶ ሰላ�
 ```php
 echo AmharicNumberConverter::toWord(1234.56);
 // Output: አንድ ሺህ ሁለት መቶ ሰላሳ አራት ነጥብ አምስት ስድስት
+
+
+echo AmharicNumberConverter::toNumber('አንድ ሺህ ሁለት መቶ ሰላሳ አራት ነጥብ አምስት ስድስት');
+// Output: 1234.56
 ```
 
 ---
 
-## 🧪 Examples
-
-### Example 1: Convert Number to Amharic Word
-
-```php
-$number = 1050;
-$amharic = AmharicNumberConverter::numberToAmharic($number);
-echo $amharic;
-// Output: አንድ ሺህ አምሳ
-```
 
 ### Example 2: Convert Amharic Word to Number
 
@@ -121,12 +115,5 @@ This package is open-sourced software licensed under the [MIT license](https://o
 
 ---
 
-## 📞 Support
-
-For any issues, suggestions, or contributions:
-
-- 📧 Email: [andualem1164@gmail.com](mailto:andualem1164@gmail.com)
-- 📞 Phone: +251 918 244 760 | +251 918 171 737
-- 🌐 GitHub: [AndualemMuche](https://github.com/AndualemMuche)
 
 If you find this project helpful, consider giving it a ⭐ on GitHub!
