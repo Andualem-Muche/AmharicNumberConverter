@@ -27,7 +27,7 @@ In your main Laravel project’s `composer.json`, add the following under the `r
     "type": "vcs",
     "url": "https://github.com/Andualem-Muche/AmharicNumberConverter"
   }
-],
+]
 
 ```
 
