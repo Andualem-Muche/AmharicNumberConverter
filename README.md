@@ -1,16 +1,21 @@
 # AmharicNumberConverter
 
-`AmharicNumberConverter` is a PHP package that provides functions to convert numbers to Amharic words and vice versa. This package is useful for any applications where you need to display numbers in Amharic.
+`AmharicNumberConverter` is a PHP package designed to convert numbers into their corresponding Amharic words and vice versa. This is useful for applications that need to display numbers in Amharic, especially in financial, educational, or legal systems where numeric values are often written in words.
 
 ## Features
 
-- Convert numbers to Amharic words.
-- Convert Amharic words back to numbers.
-- Supports large numbers with proper scaling (up to trillions).
+- **Convert Numbers to Amharic Words:** Easily convert any integer to its Amharic word representation.
+- **Convert Amharic Words to Numbers:** Convert Amharic words back to numeric values.
+- **Support for Large Numbers:** Handles very large numbers (up to trillions) with proper scaling.
+- **Flexible Usage:** Suitable for web applications, finance, educational apps, and more.
 
 ## Installation
 
-You can install the package via Composer by adding the following to your `composer.json`:
+To install `AmharicNumberConverter` in your project, you can use Composer. 
+
+### Step 1: Add the Package Repository
+
+In your project's `composer.json` file, add the following repository configuration under the `repositories` section:
 
 ```json
 "repositories": [
@@ -19,3 +24,10 @@ You can install the package via Composer by adding the following to your `compos
         "url": "../packages/Andualem/AmharicNumberConverter"
     }
 ]
+
+
+Step 2: Require the Package
+Run the following command to install the package:
+
+composer require andualem/amharic-number
+
