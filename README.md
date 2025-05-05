@@ -24,7 +24,3 @@ In your project's `composer.json` file, add the following repository configurati
         "url": "../packages/Andualem/AmharicNumberConverter"
     }
 ]
-
-
-
-
