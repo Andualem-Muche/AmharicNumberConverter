@@ -1,6 +1,6 @@
 {
   "name": "andualem/amharic-number",
-  "description": "Convert numbers to Amharic words up to quadrillion with decimal support",
+  "description": "Convert numbers to Amharic words and Words to Numbers up to quadrillion with decimal support",
   "type": "library",
   "autoload": {
     "psr-4": {
@@ -14,5 +14,9 @@
       "email": "andualem1164@gmail.com"
     }
   ],
-  "require": {}
+  "require": {
+    "php": "^7.4|^8.0"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
