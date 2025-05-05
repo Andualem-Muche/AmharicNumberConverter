@@ -24,10 +24,11 @@ In your main Laravel project’s `composer.json`, add the following under the `r
 ```json
 "repositories": [
   {
-    "type": "path",
-    "url": "../packages/Andualem/AmharicNumberConverter"
+    "type": "vcs",
+    "url": "https://github.com/Andualem-Muche/AmharicNumberConverter"
   }
-]
+],
+
 ```
 
 Adjust the path to match the location of the package folder relative to your Laravel project.
