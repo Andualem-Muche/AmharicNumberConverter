@@ -26,8 +26,5 @@ In your project's `composer.json` file, add the following repository configurati
 ]
 
 
-Step 2: Require the Package
-Run the following command to install the package:
 
-composer require andualem/amharic-number
 
