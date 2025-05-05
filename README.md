@@ -53,22 +53,22 @@ use Andualem\AmharicNumberConverter\AmharicNumberConverter;
 ### 🔢 Convert Numbers to Amharic Words
 
 ```php
-echo AmharicNumberConverter::numberToAmharic(1234);
-// Output: አንድ ሺህ ሶስት መቶ አራት
+echo AmharicNumberConverter::toWord(1234);
+// Output: አንድ ሺህ ሁለት መቶ ሰላሳ አራት
 ```
 
 ### 🔡 Convert Amharic Words to Numbers
 
 ```php
-echo AmharicNumberConverter::amharicToNumber('አንድ ሺህ ሶስት መቶ አራት');
+echo AmharicNumberConverter::toNumber('አንድ ሺህ ሁለት መቶ ሰላሳ አራት');
 // Output: 1234
 ```
 
 ### 💠 Handling Decimal Numbers
 
 ```php
-echo AmharicNumberConverter::numberToAmharic(1234.56);
-// Output: አንድ ሺህ ሶስት መቶ አራት ነጥብ አምስት ስድስት
+echo AmharicNumberConverter::toWord(1234.56);
+// Output: አንድ ሺህ ሁለት መቶ ሰላሳ አራት ነጥብ አምስት ስድስት
 ```
 
 ---
@@ -87,18 +87,18 @@ echo $amharic;
 ### Example 2: Convert Amharic Word to Number
 
 ```php
-$amharicWord = 'ሁለት ሺህ ሰባት መቶ';
-$number = AmharicNumberConverter::amharicToNumber($amharicWord);
+$amharicWord = 'ሃያ ሶስት ሚሊዮን ሶስት መቶ አርባ አምስት ሺህ ስድስት መቶ ሰባ ሰባት';
+$number = AmharicNumberConverter::toNumber($amharicWord);
 echo $number;
-// Output: 2700
+// Output: 23345677
 ```
 
 ### Example 3: Convert Large Numbers
 
 ```php
-$number = 1234567890;
-echo AmharicNumberConverter::numberToAmharic($number);
-// Output: አንድ ቢሊዮን ሁለት መቶ ሠላሳ አራት ሚሊዮን አምስት መቶ ስድሳ ስድስት ሺህ ስምንት መቶ ዘጠኝ አስር
+$number = 23345677788;
+echo AmharicNumberConverter::toWord($number);
+// Output: ሃያ ሶስት ቢሊዮን ሶስት መቶ አርባ አምስት ሚሊዮን ስድስት መቶ ሰባ ሰባት ሺህ ሰባት መቶ ሰማንያ ስምንት
 ```
 
 ---
